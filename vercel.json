@@ -1,8 +1,9 @@
 {
   "version": 2,
+  "nodeVersion": "18",
   "functions": {
     "api/contact.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "@vercel/node"
     }
   },
   "routes": [
