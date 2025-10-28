@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Linkedin, Instagram, MessageCircle, Sparkles, ArrowRight } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Instagram, MessageCircle } from 'lucide-react';
 
 const Footer = ({ setActiveSection }) => {
   const currentYear = new Date().getFullYear();

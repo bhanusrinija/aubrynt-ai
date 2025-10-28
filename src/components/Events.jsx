@@ -1,66 +1,9 @@
 import React, { useState } from 'react';
-import { Calendar, Users, Trophy, Clock, MapPin, ArrowRight } from 'lucide-react';
+import { Calendar, Users, Trophy, ArrowRight } from 'lucide-react';
 import ContactForm from './ContactForm';
 
 const Events = () => {
   const [showContact, setShowContact] = useState(false);
-
-  const upcomingEvents = [
-    {
-      title: 'AI/ML Hackathon 2025',
-      type: 'Hackathon',
-      date: 'November 15-17, 2025',
-      time: '48 Hours',
-      location: 'Hybrid (Online + Offline)',
-      participants: '500+ Teams',
-      prize: '₹5,00,000',
-      description: 'Build innovative AI solutions to solve real-world problems',
-      tags: ['AI', 'Machine Learning', 'Innovation']
-    },
-    {
-      title: 'Full Stack Development Workshop',
-      type: 'Workshop',
-      date: 'November 25, 2025',
-      time: '10:00 AM - 5:00 PM',
-      location: 'Online',
-      participants: '200 Seats',
-      prize: 'Certificate',
-      description: 'Learn MERN stack development from industry experts',
-      tags: ['Full Stack', 'React', 'Node.js']
-    },
-    {
-      title: 'UI/UX Design Sprint',
-      type: 'Workshop',
-      date: 'December 5-6, 2025',
-      time: '2 Days',
-      location: 'Hybrid',
-      participants: '150 Seats',
-      prize: 'Certificate + Portfolio Review',
-      description: 'Master modern design principles and tools',
-      tags: ['UI/UX', 'Design', 'Figma']
-    }
-  ];
-
-  const pastEvents = [
-    {
-      title: 'Web Development Bootcamp',
-      date: 'September 2024',
-      participants: '300+ Attendees',
-      description: 'Intensive 5-day bootcamp on modern web technologies'
-    },
-    {
-      title: 'Cloud Computing Hackathon',
-      date: 'August 2024',
-      participants: '450+ Teams',
-      description: '36-hour hackathon focused on cloud-native solutions'
-    },
-    {
-      title: 'Mobile App Development Workshop',
-      date: 'July 2024',
-      participants: '200+ Developers',
-      description: 'React Native and Flutter hands-on workshop'
-    }
-  ];
 
   const eventTypes = [
     {
