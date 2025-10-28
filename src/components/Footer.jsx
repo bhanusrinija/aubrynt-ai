@@ -32,9 +32,11 @@ const Footer = ({ setActiveSection }) => {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                <Sparkles className="w-6 h-6 text-white" />
-              </div>
+              <img
+                src="/logo.png"
+                alt="AUBRYNT AI Logo"
+                className="w-10 h-10 rounded-lg"
+              />
               <span className="text-2xl font-bold">AUBRYNT AI</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
@@ -47,9 +49,9 @@ const Footer = ({ setActiveSection }) => {
                 <Mail className="w-5 h-5" />
                 <span>info@aubryntai.com</span>
               </a>
-              <a href="tel:+919876543210" className="flex items-center space-x-3 text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="tel:+919704553949" className="flex items-center space-x-3 text-gray-400 hover:text-blue-400 transition-colors">
                 <Phone className="w-5 h-5" />
-                <span>+91 98765 43210</span>
+                <span>+91 9704553949</span>
               </a>
               <div className="flex items-start space-x-3 text-gray-400">
                 <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />
@@ -117,7 +119,7 @@ const Footer = ({ setActiveSection }) => {
             <div className="flex items-center space-x-4">
               <span className="text-gray-400 text-sm">Connect with us:</span>
               <a
-                href="https://linkedin.com/company/aubrynt-ai"
+                href="https://www.linkedin.com/company/aubrynt/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-all hover:scale-110"
@@ -135,7 +137,7 @@ const Footer = ({ setActiveSection }) => {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919704553949"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-green-600 transition-all hover:scale-110"

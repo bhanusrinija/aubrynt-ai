@@ -21,13 +21,13 @@ const Navbar = ({ activeSection, setActiveSection }) => {
 
   return (
     <>
-      <nav style={{ 
-        height: '60px', 
-        backgroundColor: 'transparent', 
-        position: 'fixed', 
-        top: 0, 
-        left: 0, 
-        right: 0, 
+      <nav style={{
+        height: '60px',
+        backgroundColor: 'white',
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        right: 0,
         zIndex: 1000
       }}>
         <div style={{ 
@@ -49,18 +49,16 @@ const Navbar = ({ activeSection, setActiveSection }) => {
               cursor: 'pointer' 
             }}
           >
-            <div style={{
-              width: '40px',
-              height: '40px',
-              background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-              borderRadius: '8px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
-            }}>
-              <Sparkles style={{ width: '22px', height: '22px', color: 'white' }} />
-            </div>
+            <img
+              src="/logo.png"
+              alt="AUBRYNT AI Logo"
+              style={{
+                width: '40px',
+                height: '40px',
+                borderRadius: '8px',
+                boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
+              }}
+            />
             <span style={{ 
               fontSize: '20px', 
               fontWeight: '600', 

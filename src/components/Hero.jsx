@@ -43,7 +43,11 @@ const Hero = ({ setActiveSection, setShowContact }) => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative z-10">
               <div className="inline-flex items-center space-x-2 bg-white shadow-sm border border-gray-200 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-6 hover:shadow-md transition-all">
-                <Sparkles className="w-4 h-4" />
+                <img
+                  src="/logo.png"
+                  alt="AUBRYNT AI Logo"
+                  className="w-4 h-4"
+                />
                 <span>Software Solutions & Student Development</span>
               </div>
 

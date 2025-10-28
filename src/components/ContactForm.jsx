@@ -24,19 +24,12 @@ const ContactForm = ({ onClose }) => {
     setIsSubmitting(true);
 
     try {
-      // Option 1: Use Formspree (Replace YOUR_FORM_ID with your actual form ID)
-      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      // Use Vercel API route
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
       });
-
-      // Option 2: Use your own backend
-      // const response = await fetch('http://localhost:3001/api/contact', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify(formData)
-      // });
 
       if (response.ok) {
         console.log('Form submitted:', formData);
