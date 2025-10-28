@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Code, Users, Zap, Target, Rocket, Award, TrendingUp, CheckCircle } from 'lucide-react';
+import { ArrowRight, Code, Users, Zap, Target, Rocket, Award, TrendingUp, CheckCircle, Sparkles } from 'lucide-react';
 
 const Hero = ({ setActiveSection, setShowContact }) => {
   const stats = [
